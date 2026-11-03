@@ -45,5 +45,6 @@ The app requests location access only when the website asks to use GPS. Image se
 - App data is excluded from cloud backup and device-to-device transfer. Saved navigation state contains only the local route path, not query strings.
 - Fingerprinted Vite assets are cached as immutable resources; the HTML entry point is not cached so app updates take effect immediately.
 - WebView remote debugging is not enabled by the app.
+- The Android launcher uses the supplied Bylot gradient logo artwork, with adaptive icon support on Android 8 and newer.
 
 These are client-side protections; authentication, authorization, secure cookies, rate limiting, and server-side input validation must also be enforced by the Bylot backend.
