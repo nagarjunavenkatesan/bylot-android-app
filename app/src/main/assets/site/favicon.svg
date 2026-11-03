@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5548E8"/>
+      <stop offset="100%" stop-color="#4338CA"/>
+    </linearGradient>
+    <linearGradient id="beak" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Bylot Rounded Brand Container -->
+  <rect width="32" height="32" rx="8" fill="url(#bg)"/>
+  
+  <!-- Majestic Eagle Head Vector -->
+  <g transform="translate(1.5, 1.5) scale(0.0566)">
+    <!-- Main Eagle Head & Crown (White) -->
+    <path d="M110 395
+             C128 320 165 255 240 205
+             C210 145 255 80 345 70
+             C375 75 405 95 410 135
+             C385 138 360 148 345 158
+             C385 168 418 198 425 242
+             C398 238 375 246 360 260
+             C325 305 255 350 160 375
+             C185 350 190 325 180 310
+             C150 320 125 338 110 360
+             C125 375 118 388 110 395 Z" 
+          fill="#FFFFFF"/>
+          
+    <!-- Eagle Brow & Eye -->
+    <path d="M285 130 C305 130 330 142 345 158 C325 156 300 150 285 140 Z" fill="#4338CA"/>
+    <circle cx="318" cy="148" r="10" fill="#FFFFFF"/>
+    <circle cx="316" cy="149" r="6" fill="#1E1B4B"/>
+    
+    <!-- Powerful Golden Hooked Beak -->
+    <path d="M375 178
+             C435 188 475 230 465 295
+             C438 290 412 272 390 250
+             C382 232 378 205 375 178 Z" 
+          fill="url(#beak)"/>
+  </g>
+</svg>
